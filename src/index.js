@@ -7,4 +7,4 @@ class ClosetViewer {
         document.getElementById(this.elementID).innerHTML = "showing " + url;
     }
 }
-const closet = ClosetViewer();
+window.closet = new ClosetViewer();
