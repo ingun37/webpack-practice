@@ -1,5 +1,4 @@
 class ClosetViewer {
-
     init({ elementID }) {
         this.elementID = elementID;
     }
