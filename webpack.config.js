@@ -9,6 +9,10 @@ module.exports = {
     },
     module: {
         rules: [{
+            test: /\.ts$/,
+            exclude: /(node_modules|bower_components)/,
+            use: 'ts-loader',
+        }, {
             test: /\.js$/,
             exclude: /(node_modules|bower_components)/,
             use: {
@@ -18,5 +22,8 @@ module.exports = {
                 }
             }
         }]
-    }
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
+    },
 };
