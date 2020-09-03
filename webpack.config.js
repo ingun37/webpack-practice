@@ -4,6 +4,9 @@ module.exports = {
 
     mode: 'development',
     devtool: 'inline-source-map',
+    output: {
+        library: 'closet'
+    },
     module: {
         rules: [{
             test: /\.js$/,

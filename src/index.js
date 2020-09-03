@@ -1,2 +1,2 @@
 import ClosetViewer from "./closet";
-window.closet = new ClosetViewer();
+export const closet = new ClosetViewer();
