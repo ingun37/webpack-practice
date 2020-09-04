@@ -1,3 +1,5 @@
 export function moduleFunc() {
-    console.log('I am a typescript module');
+    const e = document.createElement('div');
+    e.innerHTML = 'typescript module loaded';
+    document.body.appendChild(e);
 }
